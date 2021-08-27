@@ -10,7 +10,7 @@ app.get("/", async (req, res) => {
 });
 
 app.get("/hello", async (req, res) => {
-  res.json({ message: "world" });
+  res.json({ message: "world again" });
 });
 
 app.listen(port, () => {
